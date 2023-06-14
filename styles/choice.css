@@ -215,3 +215,51 @@ body {
         margin-top: 3rem;
     }
 }
+
+@media screen and (max-width:1024px) {       
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    .container__title {
+        color: var(--white);
+        font-family: var(--primary-font);
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #cards__link-claquete {
+        max-height: 30%;
+        max-width: 30%;
+        padding: 2.8rem;
+        margin: 2rem 1rem;
+    }
+
+    #cards__link-popcorn {
+        max-width: 10%;
+        padding: 2.8rem;
+        margin: 2rem 1rem; 
+    }
+
+    #cards__link-controller {
+        max-width: 50%;
+        max-height: 50%;
+        padding: 3.5rem 2.5rem;
+        margin: 2rem 1rem;
+    }
+
+    .button {
+        font-size: 1.5rem;
+        max-width: 20%;
+        margin: 1.5rem;
+        padding: 1rem 3rem;
+    }
+}

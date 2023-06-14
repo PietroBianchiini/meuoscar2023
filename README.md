@@ -16,11 +16,11 @@ O Meu Oscar 2023 possui três telas principais. A primeira é a escolha de categ
 
 ![Tela de escolha](https://github.com/PietroBianchiini/meuoscar2023/assets/133028228/fdf60d81-98e8-4079-b82e-1a91b30ff3fc)
 
-A segunda é das sub-categorias:
+A segunda é a escolha do gênero:
 
 ![Tela de escolha de sub-categorias](https://github.com/PietroBianchiini/meuoscar2023/assets/133028228/396742ff-602e-4000-bdae-264313358431)
 
-E a terceira é o resultado da sub-categoria escolhida:
+E a terceira é o resultado do gênero escolhido:
 
 ![Tela de resultado](https://github.com/PietroBianchiini/meuoscar2023/assets/133028228/3fad8577-8290-49c3-8d8e-d6e974795246)
 

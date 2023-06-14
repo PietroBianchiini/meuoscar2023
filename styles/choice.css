@@ -1,0 +1,217 @@
+:root {
+    --black-bg: #000000;
+    --gold: #A1731B;
+    --gold-2: #C17F03;
+    --yellow-bg: #E3BA54;
+    --white: #FFFFFF;
+    --primary-font: 'sofia-pro-light', sans-serif;
+    --secundary-font: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: var(--black-bg);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.container__title {
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-size: 2.6rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+#cards__link-claquete {
+    background: var(--yellow-bg);
+    margin: 5.5rem 4rem;
+    padding: 11rem 6rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+#cards__link-popcorn {
+    background: var(--yellow-bg);
+    margin: 5.5rem 4rem;
+    padding: 11rem 7.5rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+ 
+#cards__link-controller {
+    background: var(--yellow-bg);
+    margin: 5.5rem 4rem;
+    padding: 11.5rem 3.4rem;
+    border-radius: 2rem;
+    transition: 1s;
+}
+
+#cards__text-claquete {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    transform: translateY(380%);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+#cards__link-claquete:hover {
+    padding: 11.5rem 7rem;
+    transition: 0.5s ease;
+}
+
+#cards__link-popcorn:hover {
+    padding: 11.5rem 8.5rem;
+    transition: 0.5s ease;
+}
+
+#cards__link-controller:hover {
+    padding: 12rem 4.4rem;
+    transition: 0.5s ease;
+}
+
+#cards__link-claquete:hover #cards__text-claquete{
+    opacity: 1;
+    transform: translateY(550%);
+    animation: fadeInAnimation 0.5s;
+}
+
+#cards__text-popcorn {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    transform: translateY(380%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#cards__link-popcorn:hover #cards__text-popcorn{
+    opacity: 1;
+    transform: translateY(550%);
+    animation: fadeInAnimation 0.5s;
+}
+
+#cards__text-controller {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 3rem;
+    transform: translateY(380%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#cards__link-controller:hover #cards__text-controller{
+    opacity: 1;
+    transform: translateY(550%);
+    animation: fadeInAnimation 0.5s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    min-width: 5%;
+    font-family: var(--secundary-font);
+    color: var(--white);
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: none;
+    background-color: var(--yellow-bg);
+    padding: 1rem 5.5rem;
+    border-radius: 2rem;
+    margin: 6rem 0 2rem 0;
+}
+
+.button:hover {
+    background-color: var(--gold-2);
+    transition: 0.4s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media screen and (max-width: 1728px) {
+    .container__title {
+        font-size: 2rem;
+    }
+
+    #cards__image-claquete {
+        width: 95%;
+    }
+
+    #cards__link-claquete, #cards__link-claquete:hover {
+        text-align: center;
+        max-height: 10%;
+        width: 10%;
+        padding: 5rem;
+        margin: 5.5rem 1rem;
+    }
+
+    #cards__text-claquete {
+        display: none;
+    }
+
+    #cards__image-popcorn {
+        width: 83%;
+    }
+
+    #cards__link-popcorn, #cards__link-popcorn:hover {
+        text-align: center;
+        max-height: 12%;
+        width: 10%;
+        padding: 4.2rem 5rem;
+        margin: 5.5rem 1rem;
+    }
+
+    #cards__text-popcorn {
+        display: none;
+    }
+
+    #cards__image-controller {
+        text-align: center;
+        width: 100%;
+    }
+
+    #cards__link-controller, #cards__link-controller:hover {
+        text-align: center;
+        max-height: 12%;
+        width: 12%;
+        padding: 5.3rem 4.6rem;
+        margin: 5.5rem 1rem;
+    }
+
+    #cards__text-controller {
+        display: none;
+    }
+
+    .button {
+        margin-top: 3rem;
+    }
+}

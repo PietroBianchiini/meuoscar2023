@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --black-bg: #000000;
+    --gold: #A1731B;
+    --gold-2: #C17F03;
+    --yellow-bg: #E3BA54;
+    --yellow-result: #FFD864;
+    --white: #FFFFFF;
+    --result-font: 'Bebas Neue', sans-serif;
+    --primary-font: 'sofia-pro-light', sans-serif;
+    --secundary-font: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--black-bg);
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 5rem;
+}
+
+.header__title {
+    font-family: var(--secundary-font);
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.principal {
+    display: flex;
+    text-align: center;
+    margin: 0 10rem;
+    
+}
+
+.list {
+    width: 200vh;
+}
+
+.list__iten {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.list__link {
+    font-family: var(--secundary-font);
+    color: var(--white);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.principal__image-bg {
+    opacity: 0.2;
+    padding-top: 5rem;
+}
+
+.footer {
+    padding-top: 8rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer__text {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    color: var(--black-bg);
+    background-color: var(--yellow-bg);
+    padding: 2rem;
+    text-align: center;
+}
+
+.list__link:hover {
+    color: var(--yellow-result);
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+:root {
+    --black-bg: #000000;
+    --gold: #A1731B;
+    --gold-2: #C17F03;
+    --yellow-bg: #E3BA54;
+    --white: #FFFFFF;
+    --primary-font: 'sofia-pro-light', sans-serif;
+    --secundary-font: 'Poppins', sans-serif;
+}
+
+#body {
+    background: var(--black-bg);
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.container__title {
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-size: 2.6rem;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 190px);
+    gap: 12rem 16rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 190px;
+    transition: 0.3s;
+}
+
+.icons__text {
+    color: var(--white);
+    font-family: var(--primary-font);
+    font-size: 2.6rem;
+    padding: 2.5rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    min-width: 5%;
+    font-family: var(--secundary-font);
+    color: var(--white);
+    font-size: 2.6rem;
+    text-decoration: none;
+    background-color: var(--yellow-bg);
+    padding: 1rem 5.5rem;
+    border-radius: 2rem;
+    margin: 12rem 0 2rem 0;
+}
+
+.footer__text {
+    font-family: var(--secundary-font);
+    color: var(--white);
+    opacity: 0.3;
+    margin: 2rem;
+}
+
+.icons:hover {
+    opacity: 0.75;
+    width: 105%;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: var(--gold-2);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 1728px) {
+    .container {
+        padding: 4rem;
+    }
+    
+    .grid {
+        gap: 10rem 12rem;
+    }
+    
+    img {
+        width: 80%;
+    }
+    
+    .icons__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons__text {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+
+}

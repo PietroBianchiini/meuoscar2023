@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --black-bg: #000000;
+    --gold: #A1731B;
+    --gold-2: #C17F03;
+    --yellow-bg: #E3BA54;
+    --yellow-result: #FFD864;
+    --white: #FFFFFF;
+    --result-font: 'Bebas Neue', sans-serif;
+    --secundary-font: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--black-bg);
+}
+
+.title {
+    text-align: center;
+    font-family: var(--secundary-font);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 4rem;
+    animation: fadeIn ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+b {
+    color: var(--yellow-result);
+}
+
+.result {
+    text-align: center;
+}
+
+#result__image {
+    opacity: 0;
+    width: 20%;
+}
+
+.result__title {
+    opacity: 0;
+    font-family: var(--result-font);
+    font-size: 3rem;
+    color: var(--white);
+    padding: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    opacity: 0;
+    min-width: 4%;
+    font-family: var(--secundary-font);
+    color: var(--white);
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: var(--yellow-bg);
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media screen and (max-width:1728px) {
+    #result__image {
+        width: 25%;
+    }
+}

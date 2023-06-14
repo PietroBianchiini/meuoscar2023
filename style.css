@@ -60,7 +60,7 @@ body {
 
 @media screen and (max-width:1024px) {   
     .container__image {
-        width: 10%;
+        width: 16%;
     }
 
     .container__title {
@@ -71,14 +71,13 @@ body {
     }
 
     .container__image-title {
-        width: 80%;
-        padding-top: 2rem;
+        width: 100%;
     }
 
     .container__button {
         margin-top: 1rem;
         padding: 0.8rem;
-        font-size: 1rem;
-        max-width: 30%;
+        font-size: 2rem;
+        max-width: 50%;
     }
 }

@@ -31,4 +31,4 @@ E a terceira é o resultado do gênero escolhido:
 
 # Acesso ao projeto
 
-O deploy do projeto foi feito no Vercel e você pode acessá-lo no link que fica ao lado dos arquivos ou [clicar aqui](https://meuoscar2023-qk6f3t4pp-pietrobianchiini.vercel.app).
+O deploy do projeto foi feito na Vercel e você pode acessá-lo no link que fica ao lado dos arquivos ou [clicar aqui](https://meuoscar2023-qk6f3t4pp-pietrobianchiini.vercel.app).

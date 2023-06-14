@@ -236,20 +236,20 @@ body {
         align-items: center;
     }
     
-    #cards__link-claquete {
+    #cards__link-claquete, #cards__link-claquete:hover {
         max-height: 30%;
         max-width: 30%;
         padding: 2.8rem;
         margin: 2rem 1rem;
     }
 
-    #cards__link-popcorn {
+    #cards__link-popcorn, #cards__link-popcorn:hover {
         max-width: 10%;
         padding: 2.8rem;
         margin: 2rem 1rem; 
     }
 
-    #cards__link-controller {
+    #cards__link-controller, #cards__link-controller:hover {
         max-width: 50%;
         max-height: 50%;
         padding: 3.5rem 2.5rem;

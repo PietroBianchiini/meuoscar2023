@@ -57,3 +57,28 @@ body {
     width: 70%;
     transition: 0.7s;
 }
+
+@media screen and (max-width:1024px) {   
+    .container__image {
+        width: 10%;
+    }
+
+    .container__title {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin: 1rem;
+    }
+
+    .container__image-title {
+        width: 80%;
+        padding-top: 2rem;
+    }
+
+    .container__button {
+        margin-top: 1rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+        max-width: 30%;
+    }
+}

@@ -33,7 +33,6 @@ body {
     display: flex;
     text-align: center;
     margin: 0 10rem;
-    
 }
 
 .list {
@@ -77,4 +76,48 @@ body {
 
 .list__link:hover {
     color: var(--yellow-result);
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 2rem;
+    }
+
+    .header__title {
+        font-size: 2rem;
+    }
+    
+    .principal {
+        display: flex;
+        text-align: center;
+        margin: 0 0.1rem;
+    }
+
+    .list__iten {
+        padding: 1.5rem
+    }
+
+    .list__image {
+        max-width: 25%;
+    }
+
+    .list__link {
+        font-size: 1.8rem;
+        text-decoration: none;
+        padding: 2rem;
+    }
+
+    .principal__image-bg {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 6.5rem;
+        bottom: auto;
+    }
+
+    .footer__text {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 }

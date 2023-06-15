@@ -89,3 +89,27 @@ b {
         width: 25%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+
+    #result__image {
+        opacity: 0;
+        width: 55%;
+    }
+
+    .result__title {
+        font-size: 1.8rem;
+        padding: 2rem;
+    }
+
+    .button {
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        margin: 2.5rem 0 2rem 0;
+    }
+}

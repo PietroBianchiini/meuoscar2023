@@ -1,6 +1,17 @@
 # Meu Oscar 2023
 
-![Imagem com um oscar e o título Meu Oscar 2023](https://github.com/PietroBianchiini/meuoscar2023/assets/133028228/c1dba745-05f0-4bfa-b2f4-8a1e490db8dd)
+Projeto inspirado na premiação do Oscar com escolhas pessoais de filmes, séries e games com suas respectivas categorias.
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Meu Oscar 2023**
+| :label: Tecnologias | HTML5, CSS e Javascript
+| :rocket: URL         | https://meuoscar2023.vercel.app
+| :fire: Desafio     |
+
+![Imagem com um oscar e o título Meu Oscar 2023](https://github.com/PietroBianchiini/meuoscar2023/assets/133028228/c1dba745-05f0-4bfa-b2f4-8a1e490db8dd#vitrinedev)
+
+## Detalhes do projeto
 
 # Descrição do projeto
 
